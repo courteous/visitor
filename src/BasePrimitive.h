@@ -12,8 +12,9 @@ namespace src {
 class BasePrimitive: public enable_shared_from_this<BasePrimitive> {
 
 public:
-	~BasePrimitive();
+	
 	BasePrimitive();
+	virtual ~BasePrimitive();
 
 };
 

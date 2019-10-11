@@ -33,7 +33,7 @@ namespace src
 		vector<string> stringList = vector<string>();
 
 		// do some validation of the name
-		string name = entity->getName()
+		string name = entity->getName();
 
 		if (name == "BadName")
 			{

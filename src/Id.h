@@ -7,15 +7,15 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include <IdInterface.h>
-#include <BasePrimitive.h>
+#include "IdInterface.h"
+#include "BasePrimitive.h"
 
 class IdValidatorInterface;
 
 namespace src
 	{
 
-	using IdValidatableInterface = src::IdValidatableInterface;
+	using IdValidatableInterface = validator::IdValidatableInterface;
 	using BasePrimitive = src::BasePrimitive;
 
 	class Id : 	public virtual BasePrimitive,

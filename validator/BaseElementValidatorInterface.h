@@ -3,7 +3,7 @@
 
 #include <memory>
 
-namespace src
+namespace validator
 	{
 
 	class BaseElementValidatorInterface

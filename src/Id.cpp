@@ -8,7 +8,6 @@ using namespace std;
 namespace src
 	{
 
-
 	const string Id::name = "ID";
 
 	Id::Id()

@@ -5,17 +5,17 @@
 #include <vector>
 #include <limits>
 #include <memory>
-#include <Id.h>
+#include "../src/Id.h"
 #include "IdValidatorInterface.h"
 
-namespace src
+namespace validator
 	{
 
 	using Id = src::Id;
 	using IdValidatorInterface = src::IdValidatorInterface;
 
 
-	class IdValidator : 	public virtual IdValidatorInterface
+	class IdValidator : public virtual IdValidatorInterface
 		{
 
 	public:

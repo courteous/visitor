@@ -12,7 +12,7 @@
 namespace src
 	{
 
-	using IdValidatorInterface = src::IdValidatorInterface;
+	using IdValidatorInterface = validator::IdValidatorInterface;
 
 	class IdInterface
 		{

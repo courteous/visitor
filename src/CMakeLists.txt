@@ -1,27 +1,21 @@
-MESSAGE( STATUS "ADDING VALIDATOR_DIR")
+MESSAGE( STATUS "ADDING MAIN_DIR")
 
 
-set( VALIDATOR_SRC
+set( MAIN_SRC
 
 	BasePrimitive.h BasePrimitive.cpp
-	
-	BaseElementValidatorInterface.h 
 	
 	Id.h  Id.cpp 
 	
 	IdInterface.h
 	
-	IdValidator.h IdValidator.cpp
-	
-	IdValidatorInterface.h 
-	
-	IdValidatableInterface.h 	
-
 	)
 
 set(LIB_TYPE SHARED)
 
-add_library(src_elements ${LIB_TYPE} ${VALIDATOR_SRC} )
+add_library(src_elements ${LIB_TYPE} ${MAIN_SRC} )
+
+target_link_libraries(src_elements src_validator)
 
 
 

@@ -1,10 +1,10 @@
 #include "IdValidator.h"
-#include "Id.h"
-#include "IdInterface.h"
+#include "../src/Id.h"
+#include "../src/IdInterface.h"
 
 using namespace std;
 
-namespace src
+namespace validator
 	{
 	
 	using Id = src::Id;

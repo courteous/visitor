@@ -9,11 +9,11 @@
 
 using namespace std;
 
+class IdInterface;
 
-namespace src
+namespace validator
 	{
 
-	class IdInterface;
 
 	class IdValidatorInterface : public virtual BaseElementValidatorInterface
 		{

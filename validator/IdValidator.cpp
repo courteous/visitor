@@ -13,7 +13,7 @@ namespace validator
 		{
 		}
 
-	bool IdValidator::isValid(shared_ptr<IdInterface> entity)
+	bool IdValidator::isValid(shared_ptr<src::IdInterface> entity)
 		{
 
 		vector<string> listOfErros = validate(entity);
@@ -26,7 +26,7 @@ namespace validator
 
 		}
 
-	vector<string> IdValidator::validate(shared_ptr<IdInterface> entity)
+	vector<string> IdValidator::validate(shared_ptr<src::IdInterface> entity)
 		{
 
 
